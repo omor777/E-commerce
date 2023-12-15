@@ -1,0 +1,1805 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Organic - Website</title>
+    <link rel="stylesheet" href="../dist/output.css" />
+    <!-- google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- bootstrap icon  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"
+    />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body class="font-poppins">
+    <header>
+      <div
+        class="top_header container mx-auto flex items-center justify-between py-2"
+      >
+        <div class="flex items-center gap-2">
+          <div>
+            <img src="../Assets/Map Pin.svg" class="h-[18px] w-[15px]" />
+          </div>
+          <p class="text-xs text-gray-700">
+            Store Location: Lincoln- 344, Illinois, Chicago, USA
+          </p>
+        </div>
+
+        <div class="flex items-center gap-5">
+          <div class="flex items-center gap-1">
+            <span class="text-xs capitalize text-gray-700">eng</span>
+            <span class="mt-1"><img src="../Assets/Group.svg" /></span>
+          </div>
+
+          <div class="flex items-center gap-1">
+            <span class="text-xs capitalize text-gray-700">USD</span>
+            <span class="mt-1"><img src="../Assets/Group.svg" /></span>
+          </div>
+
+          <div class="text-xs text-gray-700">|</div>
+
+          <div class="te text-xs text-gray-700">
+            <span>Sing</span>
+            <span>/</span>
+            <span>Sign Up</span>
+          </div>
+        </div>
+      </div>
+
+      <hr />
+
+      <!-- bottom header -->
+      <div class="container flex items-center justify-between py-6">
+        <div class="basis-auto">
+          <img src="../Assets/Logo.png" class="w-40 cursor-pointer" />
+        </div>
+
+        <div class="">
+          <div
+            class="relative flex h-[45px] w-full min-w-[500px] items-center laptop:min-w-[380px] tablet:min-w-[21.875rem]"
+          >
+            <div class="absolute left-2">
+              <img src="../Assets/Search.svg" />
+            </div>
+            <input
+              type="text"
+              class="h-full w-full max-w-[25rem] rounded-l-md border border-gray-500 pl-8 outline-none focus:border-primary"
+              placeholder="Search"
+            />
+            <button
+              class="h-full rounded-r-md bg-primary px-6 text-[15px] font-semibold text-white"
+            >
+              Search
+            </button>
+          </div>
+        </div>
+
+        <div class="flex items-center gap-4">
+          <div><img src="../Assets/Heart.svg" width="32" height="32" /></div>
+
+          <div class="h-7 w-[1px] bg-gray-500"></div>
+
+          <div class="flex items-center gap-3">
+            <div class="relative">
+              <img src="../Assets/Bag.svg" />
+              <span
+                class="bag flex items-center justify-center text-[10px] font-medium text-white"
+                >3</span
+              >
+            </div>
+
+            <div class="flex flex-col gap-2">
+              <span class="text-xs text-gray-800">Shopping cart:</span>
+              <h3 class="text-[15px] font-medium">$57.00</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- navbar -->
+      <div class="bg-gray-900 py-4">
+        <nav class="container flex justify-between">
+          <ul class="flex items-center gap-8">
+            <li class="flex items-center gap-1">
+              <a
+                class="text-sm font-medium text-gray-500 transition-colors hover:text-white"
+                href="#"
+                >Home</a
+              >
+              <img src="../Assets/Group.svg" class="h-4 w-4" />
+            </li>
+
+            <li class="flex items-center gap-1">
+              <a
+                class="text-sm font-medium text-gray-500 transition-colors hover:text-white"
+                href="#"
+                >Shop</a
+              >
+              <img src="../Assets/Group.svg" class="h-4 w-4" />
+            </li>
+
+            <li class="flex items-center gap-1">
+              <a
+                class="text-sm font-medium text-gray-500 transition-colors hover:text-white"
+                href="#"
+                >Pages</a
+              >
+              <img src="../Assets/Group.svg" class="h-4 w-4" />
+            </li>
+
+            <li class="flex items-center gap-1">
+              <a
+                class="text-sm font-medium text-gray-500 transition-colors hover:text-white"
+                href="#"
+                >Blog</a
+              >
+              <img src="../Assets/Group.svg" class="h-4 w-4" />
+            </li>
+
+            <li>
+              <a
+                class="font medium text-sm text-gray-500 transition-colors hover:text-white"
+                href="#"
+                >About Us</a
+              >
+            </li>
+
+            <li>
+              <a
+                class="text-sm font-medium text-gray-500 transition-colors hover:text-white"
+                href="#"
+                >Contact Us</a
+              >
+            </li>
+          </ul>
+
+          <div class="flex items-center gap-2">
+            <img src="../Assets/PhoneCall 1.svg" class="h-7 w-7" />
+            <span class="text-sm font-medium text-white">(219) 555-0114</span>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- main section -->
+    <main>
+      <!--hero section  -->
+      <section class="relative mt-6 flex items-center justify-center">
+        <div
+          class="flex min-h-[804px] max-w-[1520px] items-center justify-between rounded-md bg-green-100"
+        >
+          <!--  -->
+          <div class="pl-24">
+            <p class="text-sm font-medium uppercase text-primary">
+              Welcome to shopery
+            </p>
+            <h1
+              class="mb-7 max-w-[596px] text-[4.5rem] font-semibold leading-[120%] text-gray-1000"
+            >
+              Fresh & Healthy Organic Food
+            </h1>
+
+            <div class="mb-3 text-[2rem]">
+              <span class="font-semibold">Sale up to</span>
+              <span class="font-semibold text-warning">30% OFF</span>
+            </div>
+
+            <p class="text-sm text-gray-600">
+              Free shipping on all your order. we deliver, you enjoy
+            </p>
+
+            <button
+              class="mt-12 flex items-center gap-2 rounded-[3.3125rem] bg-primary px-10 py-4 shadow-xl transition-colors hover:bg-hardPrimary"
+            >
+              <span class="font-medium text-white">Shop now</span>
+              <img src="../Assets/arrow.svg" class="h-3 w-4" />
+            </button>
+          </div>
+
+          <div class="w-full max-w-[820px]">
+            <img
+              src="../Assets/Image.png"
+              class="h-auto max-w-full mix-blend-multiply"
+            />
+          </div>
+        </div>
+
+        <section
+          class="absolute -bottom-14 z-30 mx-auto flex max-w-[1400px] items-center justify-between rounded-lg bg-white p-10 shadow-shadow-1"
+        >
+          <div class="flex items-center gap-4">
+            <img src="../Assets/delivery-truck 1.svg" class="h-10 w-10" />
+            <div>
+              <h4 class="font-medium text-gray-1000">Free Shipping</h4>
+              <p class="text-sm text-gray-500">
+                Free shipping on all your order
+              </p>
+            </div>
+          </div>
+
+          <div class="flex items-center gap-4">
+            <img src="../Assets/headphones 1.svg" class="h-10 w-10" />
+            <div>
+              <h4 class="font-medium text-gray-1000">Customer Support 24/7</h4>
+              <p class="text-sm text-gray-500">Instant access to Support</p>
+            </div>
+          </div>
+
+          <div class="flex items-center gap-4">
+            <img src="../Assets/shopping-bag.svg" class="h-10 w-10" />
+            <div>
+              <h4 class="font-medium text-gray-1000">100% Secure Payment</h4>
+              <p class="text-sm text-gray-500">We ensure your money is save</p>
+            </div>
+          </div>
+
+          <div class="flex items-center gap-4">
+            <img src="../Assets/package.svg" class="h-10 w-10" />
+            <div>
+              <h4 class="font-medium text-gray-1000">Money-Back Guarantee</h4>
+              <p class="text-sm text-gray-500">30 Days Money-Back Guarantee</p>
+            </div>
+          </div>
+        </section>
+      </section>
+      <!-- shipping section -->
+
+      <!-- featured products section -->
+      <section class="mx-auto mt-[6.25rem] max-w-[1320px]">
+        <h3 class="mb-4 text-center text-[2.5rem] font-semibold text-gray-1000">
+          Featured Products
+        </h3>
+
+        <div class="flex items-center justify-center gap-1">
+          <div class="h-1 w-3 bg-softPrimary"></div>
+          <div class="h-1 w-10 bg-primary"></div>
+          <div class="h-1 w-3 bg-softPrimary"></div>
+        </div>
+
+        <div
+          class="products_card mt-12 grid grid-cols-5 gap-5 laptop:grid-cols-3 laptop:place-items-center"
+        >
+          <div class="card">
+            <div
+              class="icon absolute right-4 top-4 flex translate-x-20 flex-col gap-2 opacity-0 transition duration-300 ease-linear"
+            >
+              <span
+                class="flex h-10 w-10 items-center justify-center rounded-full bg-white text-lg shadow-lg transition-colors"
+                ><i class="bi bi-heart"></i
+              ></span>
+              <span
+                class="flex h-10 w-10 items-center justify-center rounded-full bg-white text-lg shadow-lg transition-colors"
+                ><i class="bi bi-eye"></i
+              ></span>
+            </div>
+
+            <div class="head">
+              <img src="../Assets/apple.png" />
+            </div>
+
+            <div class="body p-4">
+              <p class="text-sm text-gray-800">Green Apple</p>
+
+              <div class="flex items-center justify-between">
+                <p class="font-medium text-gray-1000">$14.99</p>
+                <div
+                  class="cart flex h-10 w-10 items-center justify-center rounded-full bg-gray-100 transition-colors"
+                >
+                  <i class="bi bi-bag"></i>
+                </div>
+              </div>
+
+              <div class="">
+                <i class="fa-solid fa-star cursor-pointer text-warning"></i>
+                <i class="fa-solid fa-star cursor-pointer text-warning"></i>
+                <i class="fa-solid fa-star cursor-pointer text-warning"></i>
+                <i class="fa-solid fa-star cursor-pointer text-warning"></i>
+                <i class="fa-solid fa-star cursor-pointer text-gray-300"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div
+              class="icon absolute right-4 top-4 flex translate-x-20 flex-col gap-2 opacity-0 transition duration-300 ease-linear"
+            >
+              <span
+                class="flex h-10 w-10 items-center justify-center rounded-full bg-white text-lg shadow-lg transition-colors"
+                ><i class="bi bi-heart"></i
+              ></span>
+              <span
+                class="flex h-10 w-10 items-center justify-center rounded-full bg-white text-lg shadow-lg transition-colors"
+                ><i class="bi bi-eye"></i
+              ></span>
+            </div>
+
+            <div class="head">
+              <img src="../Assets/Image (1).png" />
+            </div>
+
+            <div class="body p-4">
+              <p class="text-sm text-gray-800">Chanise Cabbage</p>
+
+              <div class="flex items-center justify-between">
+                <p class="font-medium text-gray-1000">$14.99</p>
+                <div
+                  class="cart flex h-10 w-10 items-center justify-center rounded-full bg-gray-100 transition-colors"
+                >
+                  <i class="bi bi-bag"></i>
+                </div>
+              </div>
+
+              <div class="">
+                <i class="fa-solid fa-star cursor-pointer text-warning"></i>
+                <i class="fa-solid fa-star cursor-pointer text-warning"></i>
+                <i class="fa-solid fa-star cursor-pointer text-warning"></i>
+                <i class="fa-solid fa-star cursor-pointer text-warning"></i>
+                <i class="fa-solid fa-star cursor-pointer text-gray-300"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div
+              class="icon absolute right-4 top-4 flex translate-x-20 flex-col gap-2 opacity-0 transition duration-300 ease-linear"
+            >
+              <span
+                class="flex h-10 w-10 items-center justify-center rounded-full bg-white text-lg shadow-lg transition-colors"
+                ><i class="bi bi-heart"></i
+              ></span>
+              <span
+                class="flex h-10 w-10 items-center justify-center rounded-full bg-white text-lg shadow-lg transition-colors"
+                ><i class="bi bi-eye"></i
+              ></span>
+            </div>
+
+            <div class="head">
+              <img src="../Assets/Image (2).png" />
+            </div>
+
+            <div class="body p-4">
+              <p class="text-sm text-gray-800">Green Lettuce</p>
+
+              <div class="flex items-center justify-between">
+                <p class="font-medium text-gray-1000">$14.99</p>
+                <div
+                  class="cart flex h-10 w-10 items-center justify-center rounded-full bg-gray-100 transition-colors"
+                >
+                  <i class="bi bi-bag"></i>
+                </div>
+              </div>
+
+              <div class="">
+                <i class="fa-solid fa-star cursor-pointer text-warning"></i>
+                <i class="fa-solid fa-star cursor-pointer text-warning"></i>
+                <i class="fa-solid fa-star cursor-pointer text-warning"></i>
+                <i class="fa-solid fa-star cursor-pointer text-warning"></i>
+                <i class="fa-solid fa-star cursor-pointer text-gray-300"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div
+              class="icon absolute right-4 top-4 flex translate-x-20 flex-col gap-2 opacity-0 transition duration-300 ease-linear"
+            >
+              <span
+                class="flex h-10 w-10 items-center justify-center rounded-full bg-white text-lg shadow-lg transition-colors"
+                ><i class="bi bi-heart"></i
+              ></span>
+              <span
+                class="flex h-10 w-10 items-center justify-center rounded-full bg-white text-lg shadow-lg transition-colors"
+                ><i class="bi bi-eye"></i
+              ></span>
+            </div>
+
+            <div class="head">
+              <img src="../Assets/Image (3).png" />
+            </div>
+
+            <div class="body p-4">
+              <p class="text-sm text-gray-800">Green Chili</p>
+
+              <div class="flex items-center justify-between">
+                <p class="font-medium text-gray-1000">$14.99</p>
+                <div
+                  class="cart flex h-10 w-10 items-center justify-center rounded-full bg-gray-100 transition-colors"
+                >
+                  <i class="bi bi-bag"></i>
+                </div>
+              </div>
+
+              <div class="">
+                <i class="fa-solid fa-star cursor-pointer text-warning"></i>
+                <i class="fa-solid fa-star cursor-pointer text-warning"></i>
+                <i class="fa-solid fa-star cursor-pointer text-warning"></i>
+                <i class="fa-solid fa-star cursor-pointer text-warning"></i>
+                <i class="fa-solid fa-star cursor-pointer text-gray-300"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div
+              class="icon absolute right-4 top-4 flex translate-x-20 flex-col gap-2 opacity-0 transition duration-300 ease-linear"
+            >
+              <span
+                class="flex h-10 w-10 items-center justify-center rounded-full bg-white text-lg shadow-lg transition-colors"
+                ><i class="bi bi-heart"></i
+              ></span>
+              <span
+                class="flex h-10 w-10 items-center justify-center rounded-full bg-white text-lg shadow-lg transition-colors"
+                ><i class="bi bi-eye"></i
+              ></span>
+            </div>
+
+            <div class="head">
+              <img src="../Assets/Image (4).png" />
+            </div>
+
+            <div class="body p-4">
+              <p class="text-sm text-gray-800">Corn</p>
+
+              <div class="flex items-center justify-between">
+                <p class="font-medium text-gray-1000">$14.99</p>
+                <div
+                  class="cart flex h-10 w-10 items-center justify-center rounded-full bg-gray-100 transition-colors"
+                >
+                  <i class="bi bi-bag"></i>
+                </div>
+              </div>
+
+              <div class="">
+                <i class="fa-solid fa-star cursor-pointer text-warning"></i>
+                <i class="fa-solid fa-star cursor-pointer text-warning"></i>
+                <i class="fa-solid fa-star cursor-pointer text-warning"></i>
+                <i class="fa-solid fa-star cursor-pointer text-warning"></i>
+                <i class="fa-solid fa-star cursor-pointer text-gray-300"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- small product card -->
+        <div class="small_product_card mt-12 grid grid-cols-4 gap-6">
+          <div>
+            <h3 class="mb-4 text-xl font-medium">Hot Deals</h3>
+            <div class="flex flex-col gap-4">
+              <div class="small_card">
+                <!--  -->
+                <div
+                  class="absolute left-[95px] top-[35px] z-30 flex translate-y-20 items-center gap-1 bg-white px-3 py-3 transition-transform duration-300 ease-linear"
+                >
+                  <span
+                    class="mini_icon flex h-10 w-10 items-center justify-center rounded-full border border-gray-300 shadow-lg transition-colors hover:bg-primary hover:text-white"
+                  >
+                    <i class="bi bi-bag"></i>
+                  </span>
+
+                  <span
+                    class="mini_icon flex h-10 w-10 items-center justify-center rounded-full border border-gray-300 shadow-lg transition-colors hover:bg-primary hover:text-white"
+                  >
+                    <i class="bi bi-eye"></i>
+                  </span>
+
+                  <span
+                    class="mini_icon flex h-10 w-10 items-center justify-center rounded-full border border-gray-300 shadow-lg transition-colors hover:bg-primary hover:text-white"
+                  >
+                    <i class="bi bi-heart"></i>
+                  </span>
+                </div>
+
+                <div><img src="../Assets/sApple.png" /></div>
+                <div class="flex flex-col gap-2 py-6">
+                  <p class="text-sm capitalize text-gray-800">Green Apple</p>
+                  <p class="font-medium text-gray-1000">$14.99</p>
+
+                  <!--  -->
+                  <div class="mini_stars">
+                    <i class="fa-solid fa-star cursor-pointer text-warning"></i>
+                    <i class="fa-solid fa-star cursor-pointer text-warning"></i>
+                    <i class="fa-solid fa-star cursor-pointer text-warning"></i>
+                    <i class="fa-solid fa-star cursor-pointer text-warning"></i>
+                    <i
+                      class="fa-solid fa-star cursor-pointer text-gray-300"
+                    ></i>
+                  </div>
+                </div>
+              </div>
+
+              <div class="small_card">
+                <!--  -->
+                <div
+                  class="absolute left-[95px] top-[35px] z-30 flex translate-y-20 items-center gap-1 bg-white px-3 py-3 transition-transform duration-300 ease-linear"
+                >
+                  <span
+                    class="mini_icon flex h-10 w-10 items-center justify-center rounded-full border border-gray-300 shadow-lg transition-colors hover:bg-primary hover:text-white"
+                  >
+                    <i class="bi bi-bag"></i>
+                  </span>
+
+                  <span
+                    class="mini_icon flex h-10 w-10 items-center justify-center rounded-full border border-gray-300 shadow-lg transition-colors hover:bg-primary hover:text-white"
+                  >
+                    <i class="bi bi-eye"></i>
+                  </span>
+
+                  <span
+                    class="mini_icon flex h-10 w-10 items-center justify-center rounded-full border border-gray-300 shadow-lg transition-colors hover:bg-primary hover:text-white"
+                  >
+                    <i class="bi bi-heart"></i>
+                  </span>
+                </div>
+
+                <div>
+                  <img src="../Assets/sMalta.png" alt="" />
+                </div>
+                <div class="flex flex-col gap-2 py-6">
+                  <p class="text-sm capitalize text-gray-800">Indian Malta</p>
+                  <p class="font-medium text-gray-1000">$14.99</p>
+
+                  <!--  -->
+                  <div class="mini_stars">
+                    <i class="fa-solid fa-star cursor-pointer text-warning"></i>
+                    <i class="fa-solid fa-star cursor-pointer text-warning"></i>
+                    <i class="fa-solid fa-star cursor-pointer text-warning"></i>
+                    <i class="fa-solid fa-star cursor-pointer text-warning"></i>
+                    <i
+                      class="fa-solid fa-star cursor-pointer text-gray-300"
+                    ></i>
+                  </div>
+                </div>
+              </div>
+
+              <div class="small_card">
+                <!--  -->
+                <div
+                  class="absolute left-[95px] top-[35px] z-30 flex translate-y-20 items-center gap-1 bg-white px-3 py-3 transition-transform duration-300 ease-linear"
+                >
+                  <span
+                    class="mini_icon flex h-10 w-10 items-center justify-center rounded-full border border-gray-300 shadow-lg transition-colors hover:bg-primary hover:text-white"
+                  >
+                    <i class="bi bi-bag"></i>
+                  </span>
+
+                  <span
+                    class="mini_icon flex h-10 w-10 items-center justify-center rounded-full border border-gray-300 shadow-lg transition-colors hover:bg-primary hover:text-white"
+                  >
+                    <i class="bi bi-eye"></i>
+                  </span>
+
+                  <span
+                    class="mini_icon flex h-10 w-10 items-center justify-center rounded-full border border-gray-300 shadow-lg transition-colors hover:bg-primary hover:text-white"
+                  >
+                    <i class="bi bi-heart"></i>
+                  </span>
+                </div>
+
+                <div>
+                  <img src="../Assets/sLettuce.png" alt="" />
+                </div>
+                <div class="flex flex-col gap-2 py-6">
+                  <p class="text-sm capitalize text-gray-800">Green Lettuce</p>
+                  <p class="font-medium text-gray-1000">$14.99</p>
+
+                  <!--  -->
+                  <div class="mini_stars">
+                    <i class="fa-solid fa-star cursor-pointer text-warning"></i>
+                    <i class="fa-solid fa-star cursor-pointer text-warning"></i>
+                    <i class="fa-solid fa-star cursor-pointer text-warning"></i>
+                    <i class="fa-solid fa-star cursor-pointer text-warning"></i>
+                    <i
+                      class="fa-solid fa-star cursor-pointer text-gray-300"
+                    ></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <h3 class="mb-4 text-xl font-medium">Best Seller</h3>
+            <div class="flex flex-col gap-4">
+              <div class="small_card">
+                <!--  -->
+                <div
+                  class="absolute left-[95px] top-[35px] z-30 flex translate-y-20 items-center gap-1 bg-white px-3 py-3 transition-transform duration-300 ease-linear"
+                >
+                  <span
+                    class="mini_icon flex h-10 w-10 items-center justify-center rounded-full border border-gray-300 shadow-lg transition-colors hover:bg-primary hover:text-white"
+                  >
+                    <i class="bi bi-bag"></i>
+                  </span>
+
+                  <span
+                    class="mini_icon flex h-10 w-10 items-center justify-center rounded-full border border-gray-300 shadow-lg transition-colors hover:bg-primary hover:text-white"
+                  >
+                    <i class="bi bi-eye"></i>
+                  </span>
+
+                  <span
+                    class="mini_icon flex h-10 w-10 items-center justify-center rounded-full border border-gray-300 shadow-lg transition-colors hover:bg-primary hover:text-white"
+                  >
+                    <i class="bi bi-heart"></i>
+                  </span>
+                </div>
+
+                <div><img src="../Assets/sEggplant.png" /></div>
+                <div class="flex flex-col gap-2 py-6">
+                  <p class="text-sm capitalize text-gray-800">Eggplant</p>
+                  <p class="font-medium text-gray-1000">$14.99</p>
+
+                  <!--  -->
+                  <div class="mini_stars">
+                    <i class="fa-solid fa-star cursor-pointer text-warning"></i>
+                    <i class="fa-solid fa-star cursor-pointer text-warning"></i>
+                    <i class="fa-solid fa-star cursor-pointer text-warning"></i>
+                    <i class="fa-solid fa-star cursor-pointer text-warning"></i>
+                    <i
+                      class="fa-solid fa-star cursor-pointer text-gray-300"
+                    ></i>
+                  </div>
+                </div>
+              </div>
+
+              <div class="small_card">
+                <!--  -->
+                <div
+                  class="absolute left-[95px] top-[35px] z-30 flex translate-y-20 items-center gap-1 bg-white px-3 py-3 transition-transform duration-300 ease-linear"
+                >
+                  <span
+                    class="mini_icon flex h-10 w-10 items-center justify-center rounded-full border border-gray-300 shadow-lg transition-colors hover:bg-primary hover:text-white"
+                  >
+                    <i class="bi bi-bag"></i>
+                  </span>
+
+                  <span
+                    class="mini_icon flex h-10 w-10 items-center justify-center rounded-full border border-gray-300 shadow-lg transition-colors hover:bg-primary hover:text-white"
+                  >
+                    <i class="bi bi-eye"></i>
+                  </span>
+
+                  <span
+                    class="mini_icon flex h-10 w-10 items-center justify-center rounded-full border border-gray-300 shadow-lg transition-colors hover:bg-primary hover:text-white"
+                  >
+                    <i class="bi bi-heart"></i>
+                  </span>
+                </div>
+
+                <div>
+                  <img src="../Assets/sCapsicum.png" alt="" />
+                </div>
+                <div class="flex flex-col gap-2 py-6">
+                  <p class="text-sm capitalize text-gray-800">Red Capsicum</p>
+                  <p class="font-medium text-gray-1000">$14.99</p>
+
+                  <!--  -->
+                  <div class="mini_stars">
+                    <i class="fa-solid fa-star cursor-pointer text-warning"></i>
+                    <i class="fa-solid fa-star cursor-pointer text-warning"></i>
+                    <i class="fa-solid fa-star cursor-pointer text-warning"></i>
+                    <i class="fa-solid fa-star cursor-pointer text-warning"></i>
+                    <i
+                      class="fa-solid fa-star cursor-pointer text-gray-300"
+                    ></i>
+                  </div>
+                </div>
+              </div>
+
+              <div class="small_card">
+                <!--  -->
+                <div
+                  class="absolute left-[95px] top-[35px] z-30 flex translate-y-20 items-center gap-1 bg-white px-3 py-3 transition-transform duration-300 ease-linear"
+                >
+                  <span
+                    class="mini_icon flex h-10 w-10 items-center justify-center rounded-full border border-gray-300 shadow-lg transition-colors hover:bg-primary hover:text-white"
+                  >
+                    <i class="bi bi-bag"></i>
+                  </span>
+
+                  <span
+                    class="mini_icon flex h-10 w-10 items-center justify-center rounded-full border border-gray-300 shadow-lg transition-colors hover:bg-primary hover:text-white"
+                  >
+                    <i class="bi bi-eye"></i>
+                  </span>
+
+                  <span
+                    class="mini_icon flex h-10 w-10 items-center justify-center rounded-full border border-gray-300 shadow-lg transition-colors hover:bg-primary hover:text-white"
+                  >
+                    <i class="bi bi-heart"></i>
+                  </span>
+                </div>
+
+                <div>
+                  <img src="../Assets/sTomato.png" alt="" />
+                </div>
+                <div class="flex flex-col gap-2 py-6">
+                  <p class="text-sm capitalize text-gray-800">Red Tomatos</p>
+                  <p class="font-medium text-gray-1000">$14.99</p>
+
+                  <!--  -->
+                  <div class="mini_stars">
+                    <i class="fa-solid fa-star cursor-pointer text-warning"></i>
+                    <i class="fa-solid fa-star cursor-pointer text-warning"></i>
+                    <i class="fa-solid fa-star cursor-pointer text-warning"></i>
+                    <i class="fa-solid fa-star cursor-pointer text-warning"></i>
+                    <i
+                      class="fa-solid fa-star cursor-pointer text-gray-300"
+                    ></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <h3 class="mb-4 text-xl font-medium">Top Rated</h3>
+            <div class="flex flex-col gap-4">
+              <div class="small_card">
+                <!--  -->
+                <div
+                  class="absolute left-[95px] top-[35px] z-30 flex translate-y-20 items-center gap-1 bg-white px-3 py-3 transition-transform duration-300 ease-linear"
+                >
+                  <span
+                    class="mini_icon flex h-10 w-10 items-center justify-center rounded-full border border-gray-300 shadow-lg transition-colors hover:bg-primary hover:text-white"
+                  >
+                    <i class="bi bi-bag"></i>
+                  </span>
+
+                  <span
+                    class="mini_icon flex h-10 w-10 items-center justify-center rounded-full border border-gray-300 shadow-lg transition-colors hover:bg-primary hover:text-white"
+                  >
+                    <i class="bi bi-eye"></i>
+                  </span>
+
+                  <span
+                    class="mini_icon flex h-10 w-10 items-center justify-center rounded-full border border-gray-300 shadow-lg transition-colors hover:bg-primary hover:text-white"
+                  >
+                    <i class="bi bi-heart"></i>
+                  </span>
+                </div>
+
+                <div><img src="../Assets/sPotato.png" /></div>
+                <div class="flex flex-col gap-2 py-6">
+                  <p class="text-sm capitalize text-gray-800">Big Potatos</p>
+                  <p class="font-medium text-gray-1000">$14.99</p>
+
+                  <!--  -->
+                  <div class="mini_stars">
+                    <i class="fa-solid fa-star cursor-pointer text-warning"></i>
+                    <i class="fa-solid fa-star cursor-pointer text-warning"></i>
+                    <i class="fa-solid fa-star cursor-pointer text-warning"></i>
+                    <i class="fa-solid fa-star cursor-pointer text-warning"></i>
+                    <i
+                      class="fa-solid fa-star cursor-pointer text-gray-300"
+                    ></i>
+                  </div>
+                </div>
+              </div>
+
+              <div class="small_card">
+                <!--  -->
+                <div
+                  class="absolute left-[95px] top-[35px] z-30 flex translate-y-20 items-center gap-1 bg-white px-3 py-3 transition-transform duration-300 ease-linear"
+                >
+                  <span
+                    class="mini_icon flex h-10 w-10 items-center justify-center rounded-full border border-gray-300 shadow-lg transition-colors hover:bg-primary hover:text-white"
+                  >
+                    <i class="bi bi-bag"></i>
+                  </span>
+
+                  <span
+                    class="mini_icon flex h-10 w-10 items-center justify-center rounded-full border border-gray-300 shadow-lg transition-colors hover:bg-primary hover:text-white"
+                  >
+                    <i class="bi bi-eye"></i>
+                  </span>
+
+                  <span
+                    class="mini_icon flex h-10 w-10 items-center justify-center rounded-full border border-gray-300 shadow-lg transition-colors hover:bg-primary hover:text-white"
+                  >
+                    <i class="bi bi-heart"></i>
+                  </span>
+                </div>
+
+                <div>
+                  <img src="../Assets/sCorn.png" alt="" />
+                </div>
+                <div class="flex flex-col gap-2 py-6">
+                  <p class="text-sm capitalize text-gray-800">Corn</p>
+                  <p class="font-medium text-gray-1000">$14.99</p>
+
+                  <!--  -->
+                  <div class="mini_stars">
+                    <i class="fa-solid fa-star cursor-pointer text-warning"></i>
+                    <i class="fa-solid fa-star cursor-pointer text-warning"></i>
+                    <i class="fa-solid fa-star cursor-pointer text-warning"></i>
+                    <i class="fa-solid fa-star cursor-pointer text-warning"></i>
+                    <i
+                      class="fa-solid fa-star cursor-pointer text-gray-300"
+                    ></i>
+                  </div>
+                </div>
+              </div>
+
+              <div class="small_card">
+                <!--  -->
+                <div
+                  class="absolute left-[95px] top-[35px] z-30 flex translate-y-20 items-center gap-1 bg-white px-3 py-3 transition-transform duration-300 ease-linear"
+                >
+                  <span
+                    class="mini_icon flex h-10 w-10 items-center justify-center rounded-full border border-gray-300 shadow-lg transition-colors hover:bg-primary hover:text-white"
+                  >
+                    <i class="bi bi-bag"></i>
+                  </span>
+
+                  <span
+                    class="mini_icon flex h-10 w-10 items-center justify-center rounded-full border border-gray-300 shadow-lg transition-colors hover:bg-primary hover:text-white"
+                  >
+                    <i class="bi bi-eye"></i>
+                  </span>
+
+                  <span
+                    class="mini_icon flex h-10 w-10 items-center justify-center rounded-full border border-gray-300 shadow-lg transition-colors hover:bg-primary hover:text-white"
+                  >
+                    <i class="bi bi-heart"></i>
+                  </span>
+                </div>
+
+                <div>
+                  <img src="../Assets/sCopi.png" alt="" />
+                </div>
+                <div class="flex flex-col gap-2 py-6">
+                  <p class="text-sm capitalize text-gray-800">
+                    Fresh cauliflower
+                  </p>
+                  <p class="font-medium text-gray-1000">$14.99</p>
+
+                  <!--  -->
+                  <div class="mini_stars">
+                    <i class="fa-solid fa-star cursor-pointer text-warning"></i>
+                    <i class="fa-solid fa-star cursor-pointer text-warning"></i>
+                    <i class="fa-solid fa-star cursor-pointer text-warning"></i>
+                    <i class="fa-solid fa-star cursor-pointer text-warning"></i>
+                    <i
+                      class="fa-solid fa-star cursor-pointer text-gray-300"
+                    ></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="offer flex flex-col items-center gap-3 pt-8">
+            <p
+              class="text-xs font-medium uppercase tracking-[0.36px] text-gray-1000"
+            >
+              Summer Sale
+            </p>
+
+            <h3 class="max-w-[248px] text-[2rem] font-semibold text-primary">
+              75% off
+            </h3>
+
+            <button
+              class="rounded-[2.6875rem] bg-white px-8 py-[0.875rem] text-sm font-semibold text-primary shadow-btnS"
+            >
+              Shop Now
+              <i class="bi bi-arrow-right ml-2 text-base"></i>
+            </button>
+          </div>
+          <!-- end mini cards -->
+        </div>
+      </section>
+
+      <!-- top Category section -->
+      <section class="mt-[100px] flex items-center justify-center">
+        <div>
+          <h3
+            class="mb-4 text-center text-[2.5rem] font-semibold text-gray-1000"
+          >
+            Top Category
+          </h3>
+
+          <div class="flex items-center justify-center gap-1">
+            <div class="h-1 w-3 bg-softPrimary"></div>
+            <div class="h-1 w-10 bg-primary"></div>
+            <div class="h-1 w-3 bg-softPrimary"></div>
+          </div>
+
+          <!-- card -->
+          <div class="mt-12 flex items-center gap-6">
+            <div
+              class="mr-10 flex h-11 w-11 cursor-pointer items-center justify-center rounded-full border border-gray-300"
+            >
+              <img src="../Assets/left-arrow.svg" class="h-3 w-4" />
+            </div>
+            <!-- single card start -->
+            <div
+              class="top_category_card flex w-[12.5rem] cursor-pointer flex-col items-center gap-5 rounded-md border border-gray-300 pb-6 pt-8 transition-shadow hover:border-hardPrimary hover:shadow-product"
+            >
+              <img src="../Assets/Vegetable.svg" />
+              <div>
+                <p class="text-center text-lg font-medium transition-colors">
+                  Vegetables
+                </p>
+                <p class="text-center text-sm text-gray-600">165 Products</p>
+              </div>
+            </div>
+            <!-- single card end -->
+
+            <!-- single card start -->
+            <div
+              class="top_category_card flex w-[12.5rem] cursor-pointer flex-col items-center gap-5 rounded-md border border-gray-300 pb-6 pt-8 transition-shadow hover:border-hardPrimary hover:shadow-product"
+            >
+              <img src="../Assets/fruits 1.svg" />
+              <div>
+                <p class="text-center text-lg font-medium transition-colors">
+                  Fresh Fruit
+                </p>
+                <p class="text-center text-sm text-gray-600">137 Products</p>
+              </div>
+            </div>
+            <!-- single card end -->
+
+            <!-- single card start -->
+            <div
+              class="top_category_card flex w-[12.5rem] cursor-pointer flex-col items-center gap-5 rounded-md border border-gray-300 pb-6 pt-8 transition-shadow hover:border-hardPrimary hover:shadow-product"
+            >
+              <img src="../Assets/fish 1.svg" />
+              <div>
+                <p class="text-center text-lg font-medium transition-colors">
+                  River Fish
+                </p>
+                <p class="text-center text-sm text-gray-600">34 Products</p>
+              </div>
+            </div>
+            <!-- single card end -->
+
+            <!-- single card start -->
+            <div
+              class="top_category_card flex w-[12.5rem] cursor-pointer flex-col items-center gap-5 rounded-md border border-gray-300 pb-6 pt-8 transition-shadow hover:border-hardPrimary hover:shadow-product"
+            >
+              <img src="../Assets/meat 1.svg" />
+              <div>
+                <p class="text-center text-lg font-medium transition-colors">
+                  Meat
+                </p>
+                <p class="text-center text-sm text-gray-600">165 Products</p>
+              </div>
+            </div>
+            <!-- single card end -->
+
+            <!-- single card start -->
+            <div
+              class="top_category_card flex w-[12.5rem] cursor-pointer flex-col items-center gap-5 rounded-md border border-gray-300 pb-6 pt-8 transition-shadow hover:border-hardPrimary hover:shadow-product"
+            >
+              <img src="../Assets/soft-drink 1.svg" />
+              <div>
+                <p class="text-center text-lg font-medium transition-colors">
+                  Water and Drinks
+                </p>
+                <p class="text-center text-sm text-gray-600">48 Products</p>
+              </div>
+            </div>
+            <!-- single card end -->
+
+            <!-- single card start -->
+            <div
+              class="top_category_card flex w-[12.5rem] cursor-pointer flex-col items-center gap-5 rounded-md border border-gray-300 pb-6 pt-8 transition-shadow hover:border-hardPrimary hover:shadow-product"
+            >
+              <img src="../Assets/snacks 1.svg" />
+              <div>
+                <p class="text-center text-lg font-medium transition-colors">
+                  Snacks
+                </p>
+                <p class="text-center text-sm text-gray-600">165 Products</p>
+              </div>
+            </div>
+            <!-- single card end -->
+
+            <div
+              class="ml-10 flex h-11 w-11 cursor-pointer items-center justify-center rounded-full border border-gray-300"
+            >
+              <img src="../Assets/right-arrow.svg" class="h-3 w-4" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- offer section -->
+      <section class="mt-[6.25rem] flex items-center justify-center gap-6">
+        <div
+          class="sale_of_the_month flex h-[536px] w-[424px] flex-col items-center gap-3 pt-8"
+        >
+          <p
+            class="text-center text-sm font-medium uppercase tracking-[0.42px] text-white"
+          >
+            Best Deals
+          </p>
+
+          <h3 class="mb-2 text-center text-[40px] font-semibold text-white">
+            Sale of the Month
+          </h3>
+          <!--  -->
+          <div class="flex items-center gap-3">
+            <!--  -->
+            <div class="flex flex-col gap-1">
+              <p class="text-center text-2xl text-white">00</p>
+              <span class="text-xs uppercase tracking-[0.36px] text-white/80"
+                >days</span
+              >
+            </div>
+
+            <div class="text-2xl text-white/60">:</div>
+
+            <div class="flex flex-col gap-1">
+              <p class="text-center text-2xl text-white">02</p>
+              <span class="text-xs uppercase tracking-[0.36px] text-white/80"
+                >hours</span
+              >
+            </div>
+
+            <div class="text-2xl text-white/60">:</div>
+
+            <div class="flex flex-col gap-1">
+              <p class="text-center text-2xl text-white">18</p>
+              <span class="text-xs uppercase tracking-[0.36px] text-white/80"
+                >mins</span
+              >
+            </div>
+
+            <div class="text-2xl text-white/60">:</div>
+
+            <div class="flex flex-col gap-1">
+              <p class="text-center text-2xl text-white">46</p>
+              <span class="text-xs uppercase tracking-[0.36px] text-white/80"
+                >seconds</span
+              >
+            </div>
+
+            <div class="text-2xl text-white/60">:</div>
+          </div>
+
+          <button
+            class="mt-6 rounded-[2.6875rem] bg-white px-8 py-[0.875rem] text-sm font-semibold text-primary shadow-btnS"
+          >
+            Shop Now
+            <i class="bi bi-arrow-right ml-2 text-base"></i>
+          </button>
+        </div>
+
+        <div
+          class="low_fat_meat flex h-[536px] w-[424px] flex-col items-center gap-3 pt-8"
+        >
+          <p
+            class="text-center text-sm font-medium uppercase tracking-[0.42px] text-white"
+          >
+            85% Fat Free
+          </p>
+
+          <h3 class="mb-2 text-center text-[40px] font-semibold text-white">
+            Low-Fat Meat
+          </h3>
+          <!--  -->
+          <p class="text-lg text-white">
+            Started at
+            <span class="text-xl font-semibold text-warning">$79.99</span>
+          </p>
+
+          <button
+            class="mt-6 rounded-[2.6875rem] bg-white px-8 py-[0.875rem] text-sm font-semibold text-primary shadow-btnS"
+          >
+            Shop Now
+            <i class="bi bi-arrow-right ml-2 text-base"></i>
+          </button>
+        </div>
+
+        <div
+          class="fresh_fruit flex h-[536px] w-[424px] flex-col items-center gap-3 pt-8"
+        >
+          <p
+            class="text-center text-sm font-medium uppercase tracking-[0.42px] text-gray-1000"
+          >
+            Summer Sale
+          </p>
+
+          <h3 class="mb-2 text-center text-[40px] font-semibold text-black">
+            100% Fresh Fruit
+          </h3>
+          <!--  -->
+          <p class="flex items-center gap-3 text-lg text-black">
+            Up to
+            <span
+              class="rounded-md bg-black px-3 py-[6px] text-xl font-semibold text-warning"
+              >64% OFF</span
+            >
+          </p>
+
+          <button
+            class="mt-6 rounded-[2.6875rem] bg-white px-8 py-[0.875rem] text-sm font-semibold text-primary shadow-btnS"
+          >
+            Shop Now
+            <i class="bi bi-arrow-right ml-2 text-base"></i>
+          </button>
+        </div>
+      </section>
+
+      <!-- newest product -->
+      <section class="mx-auto mt-[100px] max-w-[82.5rem]">
+        <div class="flex flex-col items-start">
+          <h3
+            class="mb-4 text-center text-[2.5rem] font-semibold text-gray-1000"
+          >
+            Newest Products
+          </h3>
+
+          <div class="flex items-center justify-center gap-1">
+            <div class="h-1 w-3 bg-softPrimary"></div>
+            <div class="h-1 w-10 bg-primary"></div>
+            <div class="h-1 w-3 bg-softPrimary"></div>
+          </div>
+        </div>
+
+        <!-- newest product card -->
+        <div
+          class="products_card mt-12 grid grid-cols-5 gap-5 laptop:grid-cols-3 laptop:place-items-center"
+        >
+          <div class="card">
+            <div
+              class="icon absolute right-4 top-4 flex translate-x-20 flex-col gap-2 opacity-0 transition duration-300 ease-linear"
+            >
+              <span
+                class="flex h-10 w-10 items-center justify-center rounded-full bg-white text-lg shadow-lg transition-colors"
+                ><i class="bi bi-heart"></i
+              ></span>
+              <span
+                class="flex h-10 w-10 items-center justify-center rounded-full bg-white text-lg shadow-lg transition-colors"
+                ><i class="bi bi-eye"></i
+              ></span>
+            </div>
+
+            <div class="head">
+              <img src="../Assets/apple.png" />
+            </div>
+
+            <div class="body p-4">
+              <p class="text-sm text-gray-800">Green Apple</p>
+
+              <div class="flex items-center justify-between">
+                <p class="font-medium text-gray-1000">$14.99</p>
+                <div
+                  class="cart flex h-10 w-10 items-center justify-center rounded-full bg-gray-100 transition-colors"
+                >
+                  <i class="bi bi-bag"></i>
+                </div>
+              </div>
+
+              <div class="">
+                <i class="fa-solid fa-star cursor-pointer text-warning"></i>
+                <i class="fa-solid fa-star cursor-pointer text-warning"></i>
+                <i class="fa-solid fa-star cursor-pointer text-warning"></i>
+                <i class="fa-solid fa-star cursor-pointer text-warning"></i>
+                <i class="fa-solid fa-star cursor-pointer text-gray-300"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div
+              class="icon absolute right-4 top-4 flex translate-x-20 flex-col gap-2 opacity-0 transition duration-300 ease-linear"
+            >
+              <span
+                class="flex h-10 w-10 items-center justify-center rounded-full bg-white text-lg shadow-lg transition-colors"
+                ><i class="bi bi-heart"></i
+              ></span>
+              <span
+                class="flex h-10 w-10 items-center justify-center rounded-full bg-white text-lg shadow-lg transition-colors"
+                ><i class="bi bi-eye"></i
+              ></span>
+            </div>
+
+            <div class="head">
+              <img src="../Assets/Image (1).png" />
+            </div>
+
+            <div class="body p-4">
+              <p class="text-sm text-gray-800">Chanise Cabbage</p>
+
+              <div class="flex items-center justify-between">
+                <p class="font-medium text-gray-1000">$14.99</p>
+                <div
+                  class="cart flex h-10 w-10 items-center justify-center rounded-full bg-gray-100 transition-colors"
+                >
+                  <i class="bi bi-bag"></i>
+                </div>
+              </div>
+
+              <div class="">
+                <i class="fa-solid fa-star cursor-pointer text-warning"></i>
+                <i class="fa-solid fa-star cursor-pointer text-warning"></i>
+                <i class="fa-solid fa-star cursor-pointer text-warning"></i>
+                <i class="fa-solid fa-star cursor-pointer text-warning"></i>
+                <i class="fa-solid fa-star cursor-pointer text-gray-300"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div
+              class="icon absolute right-4 top-4 flex translate-x-20 flex-col gap-2 opacity-0 transition duration-300 ease-linear"
+            >
+              <span
+                class="flex h-10 w-10 items-center justify-center rounded-full bg-white text-lg shadow-lg transition-colors"
+                ><i class="bi bi-heart"></i
+              ></span>
+              <span
+                class="flex h-10 w-10 items-center justify-center rounded-full bg-white text-lg shadow-lg transition-colors"
+                ><i class="bi bi-eye"></i
+              ></span>
+            </div>
+
+            <div class="head">
+              <img src="../Assets/Image (2).png" />
+            </div>
+
+            <div class="body p-4">
+              <p class="text-sm text-gray-800">Green Lettuce</p>
+
+              <div class="flex items-center justify-between">
+                <p class="font-medium text-gray-1000">$14.99</p>
+                <div
+                  class="cart flex h-10 w-10 items-center justify-center rounded-full bg-gray-100 transition-colors"
+                >
+                  <i class="bi bi-bag"></i>
+                </div>
+              </div>
+
+              <div class="">
+                <i class="fa-solid fa-star cursor-pointer text-warning"></i>
+                <i class="fa-solid fa-star cursor-pointer text-warning"></i>
+                <i class="fa-solid fa-star cursor-pointer text-warning"></i>
+                <i class="fa-solid fa-star cursor-pointer text-warning"></i>
+                <i class="fa-solid fa-star cursor-pointer text-gray-300"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div
+              class="icon absolute right-4 top-4 flex translate-x-20 flex-col gap-2 opacity-0 transition duration-300 ease-linear"
+            >
+              <span
+                class="flex h-10 w-10 items-center justify-center rounded-full bg-white text-lg shadow-lg transition-colors"
+                ><i class="bi bi-heart"></i
+              ></span>
+              <span
+                class="flex h-10 w-10 items-center justify-center rounded-full bg-white text-lg shadow-lg transition-colors"
+                ><i class="bi bi-eye"></i
+              ></span>
+            </div>
+
+            <div class="head">
+              <img src="../Assets/Image (3).png" />
+            </div>
+
+            <div class="body p-4">
+              <p class="text-sm text-gray-800">Green Chili</p>
+
+              <div class="flex items-center justify-between">
+                <p class="font-medium text-gray-1000">$14.99</p>
+                <div
+                  class="cart flex h-10 w-10 items-center justify-center rounded-full bg-gray-100 transition-colors"
+                >
+                  <i class="bi bi-bag"></i>
+                </div>
+              </div>
+
+              <div class="">
+                <i class="fa-solid fa-star cursor-pointer text-warning"></i>
+                <i class="fa-solid fa-star cursor-pointer text-warning"></i>
+                <i class="fa-solid fa-star cursor-pointer text-warning"></i>
+                <i class="fa-solid fa-star cursor-pointer text-warning"></i>
+                <i class="fa-solid fa-star cursor-pointer text-gray-300"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div
+              class="icon absolute right-4 top-4 flex translate-x-20 flex-col gap-2 opacity-0 transition duration-300 ease-linear"
+            >
+              <span
+                class="flex h-10 w-10 items-center justify-center rounded-full bg-white text-lg shadow-lg transition-colors"
+                ><i class="bi bi-heart"></i
+              ></span>
+              <span
+                class="flex h-10 w-10 items-center justify-center rounded-full bg-white text-lg shadow-lg transition-colors"
+                ><i class="bi bi-eye"></i
+              ></span>
+            </div>
+
+            <div class="head">
+              <img src="../Assets/Image (4).png" />
+            </div>
+
+            <div class="body p-4">
+              <p class="text-sm text-gray-800">Corn</p>
+
+              <div class="flex items-center justify-between">
+                <p class="font-medium text-gray-1000">$14.99</p>
+                <div
+                  class="cart flex h-10 w-10 items-center justify-center rounded-full bg-gray-100 transition-colors"
+                >
+                  <i class="bi bi-bag"></i>
+                </div>
+              </div>
+
+              <div class="">
+                <i class="fa-solid fa-star cursor-pointer text-warning"></i>
+                <i class="fa-solid fa-star cursor-pointer text-warning"></i>
+                <i class="fa-solid fa-star cursor-pointer text-warning"></i>
+                <i class="fa-solid fa-star cursor-pointer text-warning"></i>
+                <i class="fa-solid fa-star cursor-pointer text-gray-300"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- testominal section -->
+      <section class="mt-[6.25rem] grid place-items-center">
+        <div>
+          <div class="flex items-center justify-between">
+            <div class="flex flex-col items-start">
+              <h3
+                class="mb-4 text-center text-[2.5rem] font-semibold text-gray-1000"
+              >
+                Client Testimonial
+              </h3>
+
+              <div class="flex items-center justify-center gap-1">
+                <div class="h-1 w-3 bg-softPrimary"></div>
+                <div class="h-1 w-10 bg-primary"></div>
+                <div class="h-1 w-3 bg-softPrimary"></div>
+              </div>
+            </div>
+
+            <div class="arrow_container flex items-center gap-3">
+              <div
+                class="flex h-12 w-12 cursor-pointer items-center justify-center rounded-full border border-gray-200 shadow-md transition-colors hover:border-primary hover:bg-primary hover:text-white"
+              >
+                <i class="bi bi-arrow-left text-xl"></i>
+              </div>
+
+              <div
+                class="flex h-12 w-12 cursor-pointer items-center justify-center rounded-full border border-gray-200 shadow-md transition-colors hover:border-primary hover:bg-primary hover:text-white"
+              >
+                <i class="bi bi-arrow-right"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial_container mt-12 flex items-center gap-6">
+            <!-- single -->
+            <div
+              class="flex w-[376px] flex-col gap-4 rounded-lg p-6 shadow-testimonial"
+            >
+              <div>
+                <img src="../Assets/Vector.svg" />
+              </div>
+
+              <p class="text-sm text-gray-800">
+                Pellentesque eu nibh eget mauris congue mattis mattis nec
+                tellus. Phasellus imperdiet elit eu magna dictum, bibendum
+                cursus velit sodales. Donec sed neque eget
+              </p>
+
+              <div class="flex items-center justify-between">
+                <div class="flex items-center gap-3">
+                  <img src="../Assets/avatar-1.png" />
+                  <div>
+                    <h4
+                      class="text-center text-base font-medium capitalize text-gray-1000"
+                    >
+                      Robert Fox
+                    </h4>
+                    <p class="text-center text-sm capitalize text-gray-500">
+                      customer
+                    </p>
+                  </div>
+                </div>
+
+                <div>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                </div>
+              </div>
+            </div>
+
+            <!-- single -->
+            <div
+              class="flex w-[376px] flex-col gap-4 rounded-lg p-6 shadow-testimonial"
+            >
+              <div>
+                <img src="../Assets/Vector.svg" />
+              </div>
+
+              <p class="text-sm text-gray-800">
+                Pellentesque eu nibh eget mauris congue mattis mattis nec
+                tellus. Phasellus imperdiet elit eu magna dictum, bibendum
+                cursus velit sodales. Donec sed neque eget
+              </p>
+
+              <div class="flex items-center justify-between">
+                <div class="flex items-center gap-3">
+                  <img src="../Assets/avatar-2.png" />
+                  <div>
+                    <h4
+                      class="text-center text-base font-medium capitalize text-gray-1000"
+                    >
+                      Dianne Russell
+                    </h4>
+                    <p class="text-center text-sm capitalize text-gray-500">
+                      customer
+                    </p>
+                  </div>
+                </div>
+
+                <div>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                </div>
+              </div>
+            </div>
+
+            <!-- single -->
+            <div
+              class="flex w-[376px] flex-col gap-4 rounded-lg p-6 shadow-testimonial"
+            >
+              <div>
+                <img src="../Assets/Vector.svg" />
+              </div>
+
+              <p class="text-sm text-gray-800">
+                Pellentesque eu nibh eget mauris congue mattis mattis nec
+                tellus. Phasellus imperdiet elit eu magna dictum, bibendum
+                cursus velit sodales. Donec sed neque eget
+              </p>
+
+              <div class="flex items-center justify-between">
+                <div class="flex items-center gap-3">
+                  <img src="../Assets/avatar-3.png" />
+                  <div>
+                    <h4
+                      class="text-center text-base font-medium capitalize text-gray-1000"
+                    >
+                      Eleanor Pena
+                    </h4>
+                    <p class="text-center text-sm capitalize text-gray-500">
+                      customer
+                    </p>
+                  </div>
+                </div>
+
+                <div>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="testimonial_slider mt-12 flex items-center justify-center gap-2"
+          >
+            <div
+              class="h-2 w-2 cursor-pointer rounded-full bg-softPrimary"
+            ></div>
+            <div
+              class="h-2 w-2 cursor-pointer rounded-full bg-softPrimary"
+            ></div>
+            <div class="h-2 w-4 cursor-pointer rounded-[50px] bg-primary"></div>
+            <div
+              class="h-2 w-2 cursor-pointer rounded-full bg-softPrimary"
+            ></div>
+            <div
+              class="h-2 w-2 cursor-pointer rounded-full bg-softPrimary"
+            ></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- instagram section -->
+      <section class="mt-[100px] grid place-items-center">
+        <div>
+          <h3 class="mb-8 text-center text-[2rem] font-semibold text-gray-1000">
+            Follow us on Instagram
+          </h3>
+
+          <!-- instagram container -->
+          <div class="flex items-center gap-6">
+            <div
+              class="insta relative h-[200px] w-[200px] cursor-pointer overflow-hidden transition duration-300 ease-in hover:bg-black/30"
+            >
+              <p
+                class="absolute flex h-full w-full translate-y-full items-center justify-center bg-black/40 text-3xl transition duration-300 ease-linear"
+              >
+                <i class="fa-brands fa-instagram"></i>
+              </p>
+              <img src="../Assets/Instagram Post.png" />
+            </div>
+
+            <div
+              class="insta relative h-[200px] w-[200px] cursor-pointer overflow-hidden transition duration-300 ease-in hover:bg-black/30"
+            >
+              <p
+                class="absolute flex h-full w-full translate-y-full items-center justify-center bg-black/40 text-3xl transition duration-300 ease-linear"
+              >
+                <i class="fa-brands fa-instagram"></i>
+              </p>
+              <img src="../Assets/Instagram Post (1).png" />
+            </div>
+
+            <div
+              class="insta relative h-[200px] w-[200px] cursor-pointer overflow-hidden transition duration-300 ease-in hover:bg-black/30"
+            >
+              <p
+                class="absolute flex h-full w-full translate-y-full items-center justify-center bg-black/40 text-3xl transition duration-300 ease-linear"
+              >
+                <i class="fa-brands fa-instagram"></i>
+              </p>
+              <img src="../Assets/Instagram Post (2).png" />
+            </div>
+
+            <div
+              class="insta relative h-[200px] w-[200px] cursor-pointer overflow-hidden transition duration-300 ease-in hover:bg-black/30"
+            >
+              <p
+                class="absolute flex h-full w-full translate-y-full items-center justify-center bg-black/40 text-3xl transition duration-300 ease-linear"
+              >
+                <i class="fa-brands fa-instagram"></i>
+              </p>
+              <img src="../Assets/Instagram Post (3).png" />
+            </div>
+
+            <div
+              class="insta relative h-[200px] w-[200px] cursor-pointer overflow-hidden transition duration-300 ease-in hover:bg-black/30"
+            >
+              <p
+                class="absolute flex h-full w-full translate-y-full items-center justify-center bg-black/40 text-3xl transition duration-300 ease-linear"
+              >
+                <i class="fa-brands fa-instagram"></i>
+              </p>
+              <img src="../Assets/Instagram Post (4).png" />
+            </div>
+
+            <div
+              class="insta relative h-[200px] w-[200px] cursor-pointer overflow-hidden transition duration-300 ease-in hover:bg-black/30"
+            >
+              <p
+                class="absolute flex h-full w-full translate-y-full items-center justify-center bg-black/40 text-3xl transition duration-300 ease-linear"
+              >
+                <i class="fa-brands fa-instagram"></i>
+              </p>
+              <img src="../Assets/Instagram Post (5).png" />
+            </div>
+            <!--  -->
+          </div>
+        </div>
+      </section>
+
+      <!-- contact section -->
+      <section class="mt-[100px] flex items-center justify-center bg-gray-100">
+        <div
+          class="flex w-full max-w-[1320px] items-center justify-between py-14"
+        >
+          <div class="flex items-center gap-3">
+            <img src="../Assets/plant 1.svg" />
+            <p
+              class="text-[40px] font-medium tracking-[-1.171px] text-gray-1000"
+            >
+              Ecobazar
+            </p>
+          </div>
+
+          <div>
+            <h3 class="text-2xl font-medium text-gray-1000">
+              Subcribe our Newsletter
+            </h3>
+            <p class="text-sm text-gray-500">
+              Pellentesque eu nibh eget mauris congue mattis matti.
+            </p>
+          </div>
+
+          <div
+            class="flex w-[530px] items-center justify-between overflow-hidden rounded-[46px] border border-gray-100 bg-white"
+          >
+            <input
+              class="px-6 py-[14px] outline-none placeholder:text-base"
+              type="text"
+              placeholder="Your email address"
+            />
+            <button
+              class="rounded-l-[46px] bg-primary px-10 py-4 font-semibold text-white"
+            >
+              Subscribe
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-gray-1000">
+      <div
+        class="upper_footer mx-auto flex max-w-[1320px] items-start justify-between py-[5rem]"
+      >
+        <!-- one -->
+        <div class="flex max-w-[336px] flex-col gap-4">
+          <h4 class="text-xl font-medium capitalize text-white">
+            About Shopery
+          </h4>
+          <p class="text-sm text-gray-600">
+            Morbi cursus porttitor enim lobortis molestie. Duis gravida turpis
+            dui, eget bibendum magna congue nec.
+          </p>
+
+          <div class="flex items-center gap-4">
+            <span class="text-sm font-medium text-white">(219) 555-0114</span>
+            <span class="text-gray-600">or</span>
+            <span class="text-sm font-medium text-white">Proxy@gmail.com</span>
+          </div>
+        </div>
+
+        <div class="flex flex-col gap-5">
+          <h4 class="text-xl font-medium capitalize text-white">my account</h4>
+
+          <ul class="flex flex-col gap-3">
+            <li class="text-sm capitalize text-gray-500">My Account</li>
+            <li class="text-sm capitalize text-gray-500">Order History</li>
+            <li class="text-sm capitalize text-white">Shoping Cart</li>
+            <li class="text-sm capitalize text-gray-500">Wishlist</li>
+            <li class="text-sm capitalize text-gray-500">Settings</li>
+          </ul>
+        </div>
+
+        <div class="flex flex-col gap-5">
+          <h4 class="text-xl font-medium capitalize text-white">Helps</h4>
+
+          <ul class="flex flex-col gap-3">
+            <li class="text-sm capitalize text-gray-500">Contact</li>
+            <li class="text-sm capitalize text-gray-500">Faqs</li>
+            <li class="text-sm capitalize text-gray-500">Terms & Condition</li>
+            <li class="text-sm capitalize text-gray-500">Privacy Policy</li>
+          </ul>
+        </div>
+
+        <div class="flex flex-col gap-5">
+          <h4 class="text-xl font-medium capitalize text-white">Proxy</h4>
+
+          <ul class="flex flex-col gap-3">
+            <li class="text-base capitalize text-gray-500">about</li>
+            <li class="text-base capitalize text-gray-500">shop</li>
+            <li class="text-base capitalize text-gray-500">product</li>
+            <li class="text-base capitalize text-gray-500">products details</li>
+            <li class="text-base capitalize text-gray-500">track order</li>
+          </ul>
+        </div>
+
+        <div class="flex flex-col gap-5">
+          <h4 class="text-xl font-medium capitalize text-white">
+            About Shopery
+          </h4>
+
+          <div class="flex items-center gap-2">
+            <div
+              class="flex items-center gap-[0.375rem] rounded bg-gray-900 p-3"
+            >
+              <div class="text-white">
+                <img src="../Assets/Apple---Negative 1.svg" class="h-7 w-7" />
+              </div>
+              <div>
+                <p class="text-xs text-gray-400">Download on the</p>
+                <h4 class="font-medium text-white">App Store</h4>
+              </div>
+            </div>
+
+            <div
+              class="flex items-center gap-[0.375rem] rounded bg-gray-900 p-3"
+            >
+              <div class="text-white">
+                <img src="../Assets/Icon=google-play 1.svg" class="h-6 w-6" />
+              </div>
+              <div>
+                <p class="text-xs text-gray-400">Download on the</p>
+                <h4 class="font-medium text-white">App Store</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="border-t border-t-gray-800"></div>
+      <div
+        class="lower_footer mx-auto flex max-w-[1320px] items-center justify-between py-6"
+      >
+        <ul class="flex items-center gap-2">
+          <li
+            class="grid h-10 w-10 cursor-pointer place-items-center rounded-full text-xl text-gray-500 transition-colors hover:bg-primary hover:text-white"
+          >
+            <i class="fa-brands fa-facebook-f"></i>
+          </li>
+
+          <li
+            class="grid h-10 w-10 cursor-pointer place-items-center rounded-full text-xl text-gray-500 transition-colors hover:bg-primary hover:text-white"
+          >
+            <i class="fa-brands fa-twitter"></i>
+          </li>
+
+          <li
+            class="grid h-10 w-10 cursor-pointer place-items-center rounded-full text-xl text-gray-500 transition-colors hover:bg-primary hover:text-white"
+          >
+            <i class="fa-brands fa-pinterest"></i>
+          </li>
+
+          <li
+            class="grid h-10 w-10 cursor-pointer place-items-center rounded-full text-xl text-gray-500 transition-colors hover:bg-primary hover:text-white"
+          >
+            <i class="fa-brands fa-instagram"></i>
+          </li>
+        </ul>
+
+        <p class="text-sm text-gray-600">
+          Ecobazar eCommerce © 2021. All Rights Reserved
+        </p>
+
+        <div class="flex items-center gap-2">
+          <div class="cursor-pointer rounded border border-gray-800 p-3">
+            <img src="../Assets/ApplePay.svg" alt="" />
+          </div>
+
+          <div class="cursor-pointer rounded border border-gray-800 p-3">
+            <img src="../Assets/visa-logo.svg" />
+          </div>
+
+          <div class="cursor-pointer rounded border border-gray-800 p-3">
+            <img src="../Assets/Discover.svg" />
+          </div>
+
+          <div
+            class="flex cursor-pointer flex-col items-center rounded border border-gray-800 p-3"
+          >
+            <div class="flex cursor-pointer items-center gap-1">
+              <img src="../Assets/lock 1.svg" class="h-3 w-3" />
+              <p class="text-xs text-white">Secure</p>
+            </div>
+
+            <p class="text-center text-xs font-semibold text-white">Payment</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

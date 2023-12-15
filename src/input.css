@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components {
+  .card {
+    @apply relative w-[15.5rem] cursor-pointer overflow-hidden rounded-md border border-gray-200 transition duration-200 ease-in-out hover:border-hardPrimary hover:shadow-product;
+  }
+  .small_card {
+    @apply relative flex h-[116px] w-[312px] cursor-pointer items-center gap-1 overflow-hidden rounded-lg border border-gray-200 p-1 transition duration-200 hover:border-hardPrimary hover:shadow-product;
+  }
+}
+/* custom css */
+.bag {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  background: #2c742f;
+  top: -3px;
+  right: 0;
+  border-radius: 50%;
+}
+
+.cart:hover {
+  background: #00b207;
+  color: #fff;
+}
+
+.card:hover .icon {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.icon :nth-child(n):hover {
+  background: #00b207;
+  color: #fff;
+}
+
+.small_card:hover :first-child {
+  transform: translateY(0);
+}
+
+.offer {
+  background-image: url("../Assets/offer.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.top_category_card:hover :nth-child(2) > :first-child {
+  color: #2c742f;
+}
+
+.sale_of_the_month {
+  background-image: url("../Assets/sotm.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.low_fat_meat {
+  background-image: url("../Assets/lfm.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.fresh_fruit {
+  background-image: url("../Assets/ff.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.insta:hover :first-child {
+  color: #fff;
+  opacity: 1;
+  transform: translateY(0);
+}
